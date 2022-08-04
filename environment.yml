@@ -1,0 +1,15 @@
+name: default_environment
+channels:
+  - conda-forge
+  # To get a reproducible setup we decide not to use default channels, as
+  # these may be different for different users
+  - nodefaults
+dependencies:
+  - python=3.9
+  - mamba
+  - poetry=1.*
+  - pip:
+    - nox
+    - nox-poetry
+platforms:
+    - osx-64
