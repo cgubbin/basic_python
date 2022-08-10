@@ -11,5 +11,6 @@ dependencies:
   - pip:
     - nox
     - nox-poetry
+    - pre-commit
 platforms:
     - osx-64
