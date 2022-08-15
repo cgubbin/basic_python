@@ -1,5 +1,7 @@
 [flake8]
-select = AZ,B,B9,BLK,C,E,F,W
-ignore = E203,E501,W503
+select = ANN,AZ,B,B9,BLK,C,D,E,F,W
+ignore = ANN101,E203,E501,W503
 max-line-length = 80
 application-names = my_package_name, tests
+docstring-convention = google
+exclude = .git,.github,cue.mod/*

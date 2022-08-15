@@ -9,6 +9,7 @@ dependencies:
   - mamba
   - poetry=1.*
   - pip:
+    - mypy
     - nox
     - nox-poetry
     - pre-commit

@@ -1,0 +1,18 @@
+{
+  "site_package_search_strategy": "pep561",
+  "source_directories": [
+    "."
+  ],
+  "ignore_all_errors": [
+    "setup.py",
+    "noxfile.py",
+    "tests/",
+    ".nox/"
+  ],
+  "search_path": [
+    {
+      "site-package": "numpy"
+    }
+  ],
+  "taint_models_path": "/usr/local/Caskroom/miniconda/base/envs/test_environment/lib/pyre_check/taint"
+}
