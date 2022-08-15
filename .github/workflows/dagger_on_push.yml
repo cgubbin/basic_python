@@ -4,7 +4,7 @@ on:
   push:
     # Trigger this workflow only on commits pushed to the main branch
     branches:
-      - main
+      - master
 
 jobs:
   dagger:
