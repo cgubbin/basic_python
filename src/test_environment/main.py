@@ -7,7 +7,7 @@ import numpy.typing as npt
 def sum_of_vector(vector: npt.NDArray[np.float_]) -> np.float_:
     """Sum a 1-dimensional array.
 
-    Sums all elements in the input array.
+    Sums all elements in the input array which is assumed 1D
 
     Args:
         vector: The input vector: a 1D array of floats
